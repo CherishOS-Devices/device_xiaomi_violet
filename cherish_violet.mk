@@ -33,8 +33,8 @@ ro.build.fingerprint=google/flame/flame:10/QQ3A.200805.001/6578210:user/release-
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-#GApps
-export export WITH_GAPPS=true
-export export TARGET_GAPPS_ARCH=arm64
+# Vanilla
+CHERISH_NOGAPPS=true
+
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
